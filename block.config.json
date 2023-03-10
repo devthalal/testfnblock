@@ -1,0 +1,17 @@
+{
+  "name": "testfnblock",
+  "blockId": "idoRmx2qL1Di9-q-Jf2OX",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/testfnblock",
+    "ssh": "git@github.com:devthalal/testfnblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ]
+}
